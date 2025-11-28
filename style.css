@@ -1,6 +1,6 @@
 body {
     background-image:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fb656b8f-f4cc-406f-9cad-db0c413db8a0/dkwa03d-3385bcfa-c563-459d-95d0-e975f34f529e.jpg/v1/fill/w_1182,h_676,q_70,strp/pixel_art_background_by_millyasruyat_dkwa03d-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzMyIiwicGF0aCI6Ii9mL2ZiNjU2YjhmLWY0Y2MtNDA2Zi05Y2FkLWRiMGM0MTNkYjhhMC9ka3dhMDNkLTMzODViY2ZhLWM1NjMtNDU5ZC05NWQwLWU5NzVmMzRmNTI5ZS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.NWv_IGe2P1qiYLyapp6zI_Wjnhi4ZKsBYsyNGu8_1PE);
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-size:cover;
     min-height: 100dvh;
     display: flex;
@@ -65,13 +65,16 @@ body {
 
 
 @keyframes planetorbit {
-    from{
-        transform: rotate(0) translate(275px) rotate(0);
+from { 
+    transform: rotate(0) translate(200px) rotate(0); 
+
     }
-    to{
-        transform: rotate(360deg) translate(275px) rotate(-360deg);
-    }
+    to{ transform: rotate(360deg) translate(200px) rotate(-360deg); 
 }
+}
+
+
+
 
 .moon {
     width: 125px;
@@ -92,7 +95,6 @@ body {
     }
     to{
       transform: rotateY(360deg) translate(50px) rotateY(-360deg);
-
 }
 }
 
@@ -123,10 +125,10 @@ body {
 
 @keyframes planet2orbit {
     from{
-        transform: rotate(0) translate(325px) rotate(0);
+        transform: rotate(0) translate(280px) rotate(0);
     }
     to{
-        transform: rotate(360deg) translate(325px) rotate(-360deg);
+        transform: rotate(360deg) translate(280px) rotate(-360deg);
     }
 }
 
@@ -180,10 +182,10 @@ body {
 
 @keyframes planet3orbit {
     from{
-        transform: rotate(0) translate(375px) rotate(0);
+        transform: rotate(0) translate(360px) rotate(0);
     }
     to{
-        transform: rotate(360deg) translate(375px) rotate(-360deg);
+        transform: rotate(360deg) translate(360px) rotate(-360deg);
     }
 }
 .wing{
@@ -271,10 +273,10 @@ body {
 
 @keyframes planet4orbit {
     from{
-        transform: rotate(0) translate(425px) rotate(0);
+        transform: rotate(0) translate(440px) rotate(0);
     }
     to{
-        transform: rotate(360deg) translate(425px) rotate(-360deg);
+        transform: rotate(360deg) translate(440px) rotate(-360deg);
     }
 }
 .moon4 {
@@ -334,7 +336,6 @@ body {
     border-radius: 50%;
     position: absolute;
     animation: planet5orbit 15s linear infinite;
-    transform-origin: -550px center; 
     transform-style: preserve-3d; 
 }
 
@@ -342,10 +343,10 @@ body {
 
 @keyframes planet5orbit {
       from{
-        transform: rotate(0) translate(475px) rotate(0);
+        transform: rotate(0) translate(500px) rotate(0);
     }
     to{
-        transform: rotate(360deg) translate(475px) rotate(-360deg);
+        transform: rotate(360deg) translate(500px) rotate(-360deg);
     }
 }
 
@@ -377,17 +378,16 @@ body {
     border-radius: 50%;
     position: absolute;
     animation: planet6orbit 17s linear infinite;
-    transform-origin: -550px center; 
     transform-style: preserve-3d; 
 }
 
 
 @keyframes planet6orbit {
     from{
-        transform: rotate(0) translate(525px) rotate(0);
+        transform: rotate(0) translate(560px) rotate(0);
     }
     to{
-        transform: rotate(360deg) translate(525px) rotate(-360deg);
+        transform: rotate(360deg) translate(560px) rotate(-360deg);
     }
 }
 
@@ -411,7 +411,6 @@ body {
     border-radius: 50%;
     position: absolute;
     animation: planet7orbit 19s linear infinite;
-    transform-origin: -550px center; 
     transform-style: preserve-3d; 
 }
 
@@ -419,10 +418,10 @@ body {
 
 @keyframes planet7orbit {
     from{
-        transform: rotate(0) translate(600px) rotate(0);
+        transform: rotate(0) translate(620px) rotate(0);
     }
     to{
-        transform: rotate(360deg) translate(600px) rotate(-360deg);
+        transform: rotate(360deg) translate(620px) rotate(-360deg);
     }
 }
 .moon7 {
